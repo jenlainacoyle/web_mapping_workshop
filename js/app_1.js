@@ -8,5 +8,6 @@ var token = 'pk.eyJ1IjoiamVubGFpbmFjb3lsZSIsImEiOiI0ZEs2Y2lZIn0.bI5bfj0mTgm79wsg
 L.mapbox.accessToken = token;
 var map = L.mapbox.map('map', mapId);
 
+
 //Set the view of the map to the whole US
 map.setView([39, -96], 4);
