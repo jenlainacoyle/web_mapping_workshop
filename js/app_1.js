@@ -17,7 +17,7 @@ var featureLayer = L.mapbox.featureLayer().loadURL(dataFileToAdd).addTo(map);
 
 featureLayer.on('ready',function(){
   this.setStyle({
-    'color':'#eco008',
+    'color':'#ec008c',
     'fillColor':'#ec008c',
     'weight':4,
     'opacity':.7
